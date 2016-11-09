@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: app1192016
+  host: app1192016
+  disk_quota: 1024M
+  services:
+  - Conversation-tr
+  - Cloudant NoSQL DB-de
